@@ -102,6 +102,13 @@
     }
     a { color: var(--accent); }
     a:hover { text-decoration: underline; }
+    /* Mobile adjustments */
+@media (max-width: 768px) {
+  body {
+    background-position: center top;   /* Move the focus upward */
+    background-attachment: scroll;     /* Prevent weird "fixed" behavior on mobile */
+  }
+}
   </style>
 </head>
 <body>
