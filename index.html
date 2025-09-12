@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TensorSignal Labs — AI & Quant Intelligence</title>
+  <meta name="description" content="Applied AI and quantitative research for capital markets. RAG/agentic workflows, deep learning signals, and GenAI strategy." />
+  <style>
+    :root { --fg:#0b1220; --muted:#5e6b85; --bg:#f6f8fc; --card:#ffffff; --accent:#2f6df6; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+    header { padding:64px 24px; text-align:center; }
+    .badge { display:inline-block; background:var(--card); border:1px solid #e5e8ef; padding:6px 10px; border-radius:999px; color:var(--muted); font-size:12px; }
+    h1 { margin:10px 0 8px; font-size:36px; }
+    p.lead { margin:0 auto; max-width:820px; color:var(--muted); font-size:18px; }
+    .cta { margin-top:18px; display:inline-block; background:var(--accent); color:#fff; padding:12px 18px; border-radius:10px; text-decoration:none; }
+    .grid { display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); max-width:1100px; margin:40px auto; padding:0 24px; }
+    .card { background:var(--card); border:1px solid #e5e8ef; border-radius:16px; padding:18px; }
+    .card h3 { margin:0 0 4px; font-size:18px; }
+    footer { text-align:center; color:var(--muted); padding:36px 24px; }
+    a { color:var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">TensorSignal Labs</span>
+    <h1>AI & Quant Intelligence for Capital Markets</h1>
+    <p class="lead">
+      Applied research studio led by Gary Duma. We build <strong>agentic GenAI</strong> workflows,
+      <strong>quant signals</strong> for trading/portfolio optimization, and pragmatic
+      <strong>AI strategy</strong> for regulated financial environments.
+    </p>
+    <a class="cta" href="mailto:gbduma@tensorsignallabs.com">Contact</a>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Generative AI Agents</h3>
+      <p>RAG + multi-agent orchestration, evaluation/guardrails, and retrieval pipelines tuned for financial data.</p>
+    </div>
+    <div class="card">
+      <h3>Quantitative Models</h3>
+      <p>Deep learning & signal processing for equities/FX; feature engineering and live inference pipelines.</p>
+    </div>
+    <div class="card">
+      <h3>Advisory & Architecture</h3>
+      <p>GenAI/MLOps roadmaps, compliance-aware design, and cost/performance optimization.</p>
+    </div>
+    <div class="card">
+      <h3>In the Lab</h3>
+      <p>Prototypes & papers coming soon: agentic onboarding, hybrid financial embeddings, cross-asset alpha signals.</p>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="y"></span> TensorSignal Labs · Detroit · <a href="mailto:gbduma@tensorsignallabs.com">gbduma@tensorsignallabs.com</a>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
