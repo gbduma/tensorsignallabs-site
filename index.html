@@ -102,11 +102,12 @@
     }
     a { color: var(--accent); }
     a:hover { text-decoration: underline; }
-    /* Mobile adjustments */
+/* Mobile portrait background */
 @media (max-width: 768px) {
   body {
-    background-position: center top;   /* Move the focus upward */
-    background-attachment: scroll;     /* Prevent weird "fixed" behavior on mobile */
+    background: url('assets/background-mobile.jpg') no-repeat center top;
+    background-size: cover;
+    background-attachment: scroll; /* avoids jittery fixed backgrounds on iOS */
   }
 }
   </style>
